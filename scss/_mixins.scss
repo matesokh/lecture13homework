@@ -1,0 +1,52 @@
+
+@mixin go-flex(
+    $dir: row,
+    $jsf-c: space-betwen,
+    $align-i: center,
+    $flex-w: wrap,
+) {
+    display: flex;
+    flex-direction: $dir;
+    align-items: $align-i;
+    flex-wrap: $flex-w;
+}
+ 
+@mixin nav(
+    $dir: row,
+    $align-i: center,
+    $flex-w: wrap,
+) {
+    display: flex;
+    flex-direction: $dir;
+    align-items: $align-i;
+    flex-wrap: $flex-w;
+    gap: 35px;
+    padding-top: 21px;
+    padding-left: 121px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+@mixin info(
+    $PT: 42px,
+    $PL: 121px,
+    $FS: 24px,
+    $FW: 700,
+) {
+
+    padding-left: $PL;
+    padding-top: $PT;
+    font-size: $FS;
+    font-weight: $FW;
+}
+@mixin footer (
+    $Fs: 12px,
+    $CL: #818687,
+    $Fd:column,
+) {
+   display: flex;
+   font-size: $Fs;
+   color: $CL;
+   flex-direction: column;
+   gap: 14px;
+}

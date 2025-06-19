@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding-top: 21px;
+  padding-left: 121px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+body {
+  background-color: #f2f2f2;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.info {
+  padding-left: 121px;
+  padding-top: 42px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.widget {
+  padding-top: 60px;
+  padding-left: 121px;
+  gap: 40px;
+  display: flex;
+}
+.widget section {
+  background-color: white;
+  width: 362px;
+  height: 357px;
+}
+.widget section div {
+  background-image: url(../img/info1.svg);
+  width: 362px;
+  height: 186px;
+}
+.widget section div p {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 41px;
+  padding-top: 32px;
+}
+.widget section p {
+  padding-top: 11px;
+  padding-left: 40px;
+  font-size: 10px;
+  color: #8A8787;
+}
+.widget section .txt {
+  padding-top: 58px;
+  padding-left: 37px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #8A8787;
+  line-height: 20px;
+}
+
+main {
+  padding-left: 121px;
+  padding-top: 60px;
+}
+main p {
+  font-size: 24px;
+  font-weight: 800;
+  color: black;
+  padding-bottom: 30px;
+}
+main .main {
+  gap: 45px;
+  display: flex;
+}
+main .main .fs {
+  padding-bottom: 42px;
+}
+main .main .sc {
+  padding-bottom: 98px;
+}
+main .main .th {
+  padding-bottom: 103px;
+}
+
+footer {
+  gap: 100px;
+  padding-top: 60px;
+  padding-left: 114px;
+  display: flex;
+  width: 100%;
+  height: 201px;
+  background-color: #243043;
+}
+footer div {
+  display: flex;
+  font-size: 12px;
+  color: #818687;
+  flex-direction: column;
+  gap: 14px;
+}
+footer p {
+  color: white;
+}
+footer img {
+  width: 544px;
+  height: 40px;
+}/*# sourceMappingURL=styles.css.map */
