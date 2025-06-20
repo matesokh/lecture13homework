@@ -66,6 +66,14 @@ main {
    .main {
     gap: 45px;
     display: flex;
+    .left{ 
+        position: relative;
+        p {
+            position: absolute;
+            top: 23%;
+            left: 35%;
+            color: white;
+        }
      .fs {
         padding-bottom: 42px;
      }
@@ -75,6 +83,7 @@ main {
      .th {
         padding-bottom: 103px;
      }
+    }
    }
 }
 footer {

@@ -137,13 +137,22 @@ main .main {
   gap: 45px;
   display: flex;
 }
-main .main .fs {
+main .main .left {
+  position: relative;
+}
+main .main .left p {
+  position: absolute;
+  top: 23%;
+  left: 35%;
+  color: white;
+}
+main .main .left .fs {
   padding-bottom: 42px;
 }
-main .main .sc {
+main .main .left .sc {
   padding-bottom: 98px;
 }
-main .main .th {
+main .main .left .th {
   padding-bottom: 103px;
 }
 
