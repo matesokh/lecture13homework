@@ -1,5 +1,56 @@
-@media (max-width: 1220px) {
+@media (max-width: 1200px) {
   body {
-    width: 1200px;
+    width: 1185px;
+  }
+  body nav {
+    padding-left: 30px;
+  }
+  body .info {
+    padding-left: 30px;
+  }
+  body .widget {
+    padding-left: 10px;
+  }
+  main {
+    padding-left: 10px;
+  }
+  footer {
+    width: 1185px;
+  }
+}
+@media (max-width: 720px) {
+  body {
+    width: 705px;
+  }
+  body .widget {
+    padding-left: 25px;
+  }
+  body main {
+    gap: 20px;
+  }
+  body main .main {
+    flex-direction: column;
+  }
+  body main .main .main p {
+    padding-left: 20px;
+  }
+  body main .main .left p {
+    font-size: 14px;
+    top: 20%;
+    left: 14%;
+  }
+  body main .main .left img {
+    width: 360px;
+  }
+  body main .main .right img {
+    padding-bottom: 20px;
+  }
+  footer {
+    width: 100%;
+    padding-left: 20px;
+    gap: 55px;
+  }
+  footer img {
+    width: 40px;
   }
 }/*# sourceMappingURL=media.css.map */
