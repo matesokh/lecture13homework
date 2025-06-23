@@ -65,3 +65,18 @@
     }
   }
 }
+
+@media(max-width:480px){
+  body {
+    width: 465px;
+  }
+  main{
+    width: 465px;
+  }
+  footer {
+    padding-left: 7px;
+    gap: 15px;
+    width: 100%;
+    
+  }
+}
