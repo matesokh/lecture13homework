@@ -1,6 +1,7 @@
 @use 'reset';
 @use 'mixins';
 @use 'variables';
+@use 'media';
 
 nav {
     @include mixins.nav;
